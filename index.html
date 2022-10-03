@@ -54,42 +54,46 @@
           <button type="button" class="button-hero" data-modal-open>Замовити послугу</button>
           <div class="modal-fon is-hidden " data-modal>
             <div class="modal-content is-hidden">
-              <div><h1>Залиште свої дані, ми вам передзвонимо</h1>
-              <form action=""> 
-                <label for="">
-                  Ім'я
-                  <input type="text" name="username">
-                </label>
-                <br>
-                <label for="">
-                  Телефон
-                  <input type="text" name="phone_number">
-                </label>
-<br>
-                <label>
-                  Пошта
-                  <input type="email" name="email">
-                </label>
+              <div class="modal-form">
+                <h1 class="title-modal">Залиште свої дані, ми вам передзвонимо</h1>
+                
+                <form action="" class="forma-modal">
+                   <div class="form-field">
+                  <label for="" >
+                    Ім'я</label>
+                    <input class="name" type="text" name="username">
+                  </div>
 
-                <br>
-                <label>
-                  Коментар
-                  <textarea name="feedback" rows="5" placeholder="Введіть текст"></textarea>
-                </label>
-                <br>
-                <label>
-                  <input type="checkbox" name="hobby" value="" checked />
-                  Погоджуюся з розсилкою та приймаю  Умови договору
-                </label>
-                <br>
-                <button type="submit" class="btn-modal">Відправити</button>
-              </form>
+                  <div class="form-field">
+                  <label for="" >
+                    Телефон</label>
+                    <input class="phone_number" type="text" name="phone_number">
+                  </div>
+                  <div class="form-field">
+                  <label >
+                    Пошта</label>
+                    <input class="email" type="email" name="email">
+                  </div>
+                  
+                  <label >
+                    Коментар</label>
+                    <textarea class="feedback" name="feedback" rows="5" placeholder="Введіть текст"></textarea>
+                  
+                
+
+                  <label class="checkbox" >
+                    <input type="checkbox" name="agree" checked />
+                    Погоджуюся з розсилкою та приймаю Умови договору
+                  </label>
+                </form>
+                  <div class="bnt-mod"><button type="submit" class="btn-modal">Відправити</button></div>
+                
               </div>
               <div class="wraper-icon-close"><button type="button" class="button-modal-cloce" data-modal-close><svg
                     width="18" height="18" class="icon-close">
                     <use href="images/sprites.svg#icon-close1-1"></use>
                   </svg></button>
-                </div>
+              </div>
             </div>
           </div>
         </div>
