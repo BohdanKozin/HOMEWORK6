@@ -329,26 +329,51 @@ flex-direction: column;}
     letter-spacing: 0.03em;
     margin-bottom: 12px;
 }
-.forma-modal{display: flex;
-    flex-direction: column;}
 
 
     .form-field{display: flex;
-    flex-direction: column;}
+        flex-direction: column;}
+
+        .label-text {color: var(--advantage-text-color);
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.01em;
+        margin-bottom: 4px;} 
+
+.name{margin-bottom: 10px;
+    padding-top:  10px; 
+    padding-bottom: 10px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;}
 
 
-.name{
-    margin-bottom: 10px;}
-.phone_number{margin-bottom: 10px;}
-.email{margin-bottom: 10px;}
+
+.phone_number{margin-bottom: 10px;
+    padding-top:  10px; 
+    padding-bottom: 10px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;}
+.email{margin-bottom: 10px;
+    padding-top:  10px; 
+    padding-bottom: 10px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;}
 
     .feedback{ resize: none;
         height: 138px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
    }
 
 
+   .form-field .centre{ justify-content: center;
+align-items: center;
+margin-top: 20px;}
+  
 
-    .checkbox{ margin-top: 20px;}
 
 
 .btn-modal{ 
