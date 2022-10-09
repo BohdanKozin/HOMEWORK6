@@ -58,36 +58,56 @@
                 <h1 class="title-modal">Залиште свої дані, ми вам передзвонимо</h1>
                 <form action="" class="forma-modal">
                    <div class="form-field">
-                  <label for="" class="label-text" >
+                  <label for="username" class="label-text" >
                     Ім'я</label>
-                    <input class="name" type="text" name="username">
-                  </div>
+                    <input class="name" type="text" name="username" id="username">
+                    <svg width="18" Height="18"
+              class="icon-tel-modal">
+              <use href="images/sprites.svg#icon-person-black-18dp-1"></use></svg>
+            </div>
 
                   <div class="form-field">
                   <label for="" class="label-text">
                     Телефон</label>
                     <input class="phone_number" type="text" name="phone_number">
+                    <svg width="18" Height="18"
+              class="icon-tel-modal">
+              <use href="images/sprites.svg#icon-phone-black-18dp-1"></use></svg>
+                  </div>
                  
                   <div class="form-field">
                   <label for="" class="label-text">
                     Пошта</label>
                     <input class="email" type="email" name="email">
+                    <svg width="18" Height="18"
+              class="icon-tel-modal">
+              <use href="images/sprites.svg#icon-email-black-18dp-1"></use></svg>
                   </div>
                   <div class="form-field">
                   <label for="" class="label-text">
                     Коментар</label>
                     <textarea class="feedback" name="feedback" rows="5" placeholder="Введіть текст"></textarea>
                   </div>
-                  <div class="form-field centre">
-                  <label for="" class="label-text-checkbox"  >
-                    <input class="checkbox" type="checkbox" name="agree" checked />
+
+                  <div class="form-field-check">
+                  <label for="chek" class="label-text-checkbox"  >
+                    <input class="checkbox" type="checkbox" name="agree" checked id="chek" />
+                    <svg width="18.5" Height="18.5"
+                    class="icon-checkbox-2">
+                    <use href="images/sprites.svg#icon-icon-check-1"></use></svg>
+                    <svg width="18" Height="18"
+                    class="icon-checkbox">
+                    <use href="images/sprites.svg#icon-kvadrat"></use></svg>
+                    
                     Погоджуюся з розсилкою та приймаю <a href=""><span class="umovy-text"> Умови договору</span></a> 
                   </label>
+                 
                 </div>
                 </form>
                   <div class="bnt-mod"><button type="submit" class="btn-modal">Відправити</button></div>
               </div>
-              <button type="button" class="button-modal-cloce" data-modal-close><svg
+              <button type="button" class="button-modal-cloce" data-modal-close>
+                   <svg
                     width="18" height="18" class="icon-close">
                     <use href="images/sprites.svg#icon-close1-1"></use>
                   </svg></button>
@@ -372,6 +392,17 @@
                 <use href="images/sprites.svg#icon-linkedin-1"></use>
               </svg></a></li>
         </ul>
+      </div>
+      <div class="mail-distribution">
+        <h1 class="distribution-text">Підпишіться на розсилку</h1>
+        <form action="" class="form-distribution">
+          <input class="mail-imput" type="email" name="email" placeholder="E-mail">
+          <button class="btn-distribution">
+            Підписатися <svg width="20" viewBox="0 0 100 100" class="icon-footer distribution">
+              <use href="images/sprites.svg#icon-icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </div>
   </footer>
